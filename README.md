@@ -1,7 +1,7 @@
 # WEB - CSS
 - [CSS](https://www.opentutorials.org/course/3086)
 
-본 강의를 통해 CSS를 학습하고 VSC를 사용하여 실습한 내용입니다.
+본 강의를 통해 CSS를 학습하고 정리한 내용입니다.
 
 ---
 ## 1. CSS란?
