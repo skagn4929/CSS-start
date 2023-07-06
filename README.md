@@ -53,10 +53,6 @@ ex) h1 태그의 색상을 빨간색으로 적용
 - **그리드 영역(Grid Area)** : Grid 라인으로 둘러싸인 사각형 영역으로, 그리드 셀의 집합
 
 ### 4-2. 그리드 적용
-- `display: grid;` : 컨테이너의 속성을 그리드로 정의.
-- `grid-template-columns` : 그리드 열 크기 속성
-- `grid-template-rows` : 그리드 행 크기 속성
-- `fr` : 공간 비율로도 설정 가능.
 ```css
 ex)
 
@@ -66,3 +62,8 @@ ex)
     grid-template-rows: 100px 1fr;
 }
 ```
+- `display: grid;` : 컨테이너의 속성을 그리드로 정의.
+- `grid-template-columns` : 그리드 열 크기 속성
+- `grid-template-rows` : 그리드 행 크기 속성
+- `fr` : 공간 비율로도 설정 가능.
+
