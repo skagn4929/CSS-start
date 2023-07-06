@@ -33,8 +33,20 @@ ex) h1 태그의 색상을 빨간색으로 적용
 
 ![3](https://github.com/skagn4929/CSS-start/assets/134206709/6d5c9ec0-4bf9-4443-a747-908c2ab89680)
 
-- 블록 레벨 요소 : 화면 전체를 쓰는 태그. ex) h1~h6 제목태그, p 태그, div 태그 등
-- 인라인 요소 : 자기 자신의 콘텐츠 크기만큼 쓰는 태그. ex) span 태그, a 태그 등
+- **블록 레벨 요소** : 화면 전체를 쓰는 태그. ex) h1~h6 제목태그, p 태그, div 태그 등
+- **인라인 요소** : 자기 자신의 콘텐츠 크기만큼 쓰는 태그. ex) span 태그, a 태그 등
 - 이러한 요소들은 display 속성을 사용하여 언제든 바꿀 수 있다.
  
 ## 4. 그리드(Grid)
+웹페이지를 위한 2차원 레이아웃 시스템. 이 기능을 통해 콘텐츠를 행과 열에 배치할 수 있으며 복잡한 레이아웃을 직관적으로 구축할 수 있다.
+
+![4](https://github.com/skagn4929/CSS-start/assets/134206709/7d36ff53-a88d-487e-8e76-c22b8184498e)
+
+- **그리드 컨테이너 (Grid Container)** : Grid의 전체 영역
+- **그리드 아이템 (Grid Item)** : Grid 컨테이너의 자식 요소들
+- **그리드 트랙 (Grid Track)** : Grid의 행(Row) 또는 열(Column)
+- **그리드 셀 (Grid Cell)** : Grid의 한 칸
+- **그리드 라인(Grid Line)** : Grid 셀을 구분하는 선
+- **그리드 번호(Grid Number)** : Grid 라인의 각 번호
+- **그리드 갭(Grid Gap)** : Grid 셀 사이의 간격
+- **그리드 영역(Grid Area)** : Grid 라인으로 둘러싸인 사각형 영역으로, 그리드 셀의 집합
