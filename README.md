@@ -88,5 +88,50 @@ ex)
 3. 조건이 참이면, 미디어 쿼리 내부에 있는 스타일 규칙이 적용된다.
 
 ---
+## 결과물
+- https://skagn4929.github.io/CSS-start/2.html
 
+![Screenshot 2023-07-09 at 18 43 38](https://github.com/skagn4929/CSS-start/assets/134206709/413ff882-b179-453c-b425-bb14ea6c5118)
+
+```css
+a {
+  color: black;
+  text-decoration: none;
+}
+h1 {
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin: 0px;
+  padding: 20px;
+}
+#grid ol {
+  border-right: 1px solid gray;
+  width: 100px;
+  margin: 0;
+  padding: 20px;
+  padding-left: 33px;
+}
+body {
+  margin: 0px;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#article {
+  padding-left: 25px;
+}
+@media (max-width: 800px) {
+  #grid {
+    display: block;
+  }
+  #grid ol {
+    border-right: none;
+  }
+  h1 {
+    border-bottom: none;
+  }
+}
+```
 
