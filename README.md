@@ -1,4 +1,4 @@
-# WEB - CSS
+# CSS
 - [CSS 강의](https://www.opentutorials.org/course/3086)
 
 본 강의를 통해 CSS를 학습하고 정리한 내용입니다.
